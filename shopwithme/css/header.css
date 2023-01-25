@@ -1,0 +1,58 @@
+
+.header {
+    position: relative;
+    height: 105px;
+    background-color: pink;
+}  
+
+.logo {
+    position: absolute;
+    top: 5px;
+    width: 160px;
+    height: 120px;
+    /* background-color: blue; */
+}
+
+.logo a {
+    display: block;
+    width: 160px;
+    height: 120px;
+    background: url(../icon_image/shop_logo_big.png) no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.search {
+    position: absolute;
+    top: 25px;
+    left: 346px;
+    height: 36px;
+    width: 538px;
+    border: 2px solid #b1191a;
+}
+
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.search button {
+    float: right;
+    width: 80px;
+    height: 33px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+}
+
+.hotwords {
+    position: absolute;
+    left: 340px;
+    top: 66px;
+}
+
+.hotwords a {
+    margin: 0 10px;
+}

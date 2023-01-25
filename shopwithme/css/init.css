@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+em, i{
+    font-family: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c81623;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    color: #666;
+}
+
+.hide,
+.none {
+    display: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+button,
+input {
+    border: 0;
+    outline: none;
+}
